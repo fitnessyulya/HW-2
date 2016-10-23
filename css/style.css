@@ -4,9 +4,20 @@
     }
 body{
     width: 1366px;
+    height: 100%;
     background-color: #f9f9f9;
 }
-   .container {
-       width: 1060px;
-       background-color: #fff;
-    }
+.container{
+    width: 1060px;
+}
+.top-menu{
+
+}
+.links{
+    background: linear-gradient(#5e5e5e, #464545);
+    height: 40px;
+    display: inline-block;
+}
+a img{
+    display: block;
+}
