@@ -1,5 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    }
+body{
+    width: 1366px;
+    background-color: #f9f9f9;
 }
+   .container {
+       width: 1060px;
+       background-color: #fff;
+    }
