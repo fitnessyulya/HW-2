@@ -11,7 +11,7 @@ body{
     width: 1060px;
 }
 .top-menu{
-
+    width: 100%;
 }
 .links{
     background: linear-gradient(#5e5e5e, #464545);
@@ -20,4 +20,5 @@ body{
 }
 a img{
     display: block;
+    margin-top: 34px;
 }
