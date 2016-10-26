@@ -2,18 +2,21 @@ body{
     height: auto;
     background-color: #f9f9f9;
     box-sizing: border-box;
+
 }
 .container{
     background-color: #fff;
     width: 1060px;
+    height: 100%;
     margin: 0 auto;
     padding: 40px 34px 0 34px;
-}
-header{
-}
+    box-shadow: 0px 0px 8px 0px rgba(140,133,140,1);
+    overflow: hidden;
 
+}
 .top-menu{
     background: linear-gradient(#666666, #464545);
+    margin-bottom: 40px;
 }
 
 .top-menu li{
@@ -25,14 +28,21 @@ header{
     text-decoration: none;
     color: white;
     line-height: 40px;
-    padding: 0 24px;
+    padding: 0 40px 0 60px;
     display: block;
-
+}
+.top-menu a:first-child{
+    padding-left: 24px;
 }
 
 .top-menu a:hover{
     background: linear-gradient(#494949, #303030);
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
 
+a img{
+    margin-bottom: 40px;
 }
 /*section{*/
     /*display: flex;*/
