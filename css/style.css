@@ -1,5 +1,4 @@
 body{
-    width: 1366px;
     height: auto;
     background-color: #f9f9f9;
     box-sizing: border-box;
@@ -7,27 +6,38 @@ body{
 .container{
     background-color: #fff;
     width: 1060px;
-    margin-left: 40px;
-    margin-right: 36px;
-
+    margin: 0 auto;
+    padding: 40px 34px 0 34px;
 }
 header{
-    padding: 40px 34px 0 34px;
+}
 
-}
 .top-menu{
-    width: 100%;
+    background: linear-gradient(#666666, #464545);
 }
-.links{
-    background: linear-gradient(#5e5e5e, #464545);
+
+.top-menu li{
     height: 40px;
     display: inline-block;
 }
 
-section{
-    display: flex;
-    flex-wrap: nowrap;
+.top-menu a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding: 0 24px;
+    display: block;
+
 }
-.image{
-    border: 2px solid lightgrey;
+
+.top-menu a:hover{
+    background: linear-gradient(#494949, #303030);
+
 }
+/*section{*/
+    /*display: flex;*/
+    /*flex-wrap: nowrap;*/
+/*}*/
+/*.image{*/
+    /*border: 2px solid lightgrey;*/
+/*}*/
