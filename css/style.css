@@ -1,5 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
+body{
+    width: 1366px;
+    height: auto;
+    background-color: #f9f9f9;
     box-sizing: border-box;
+}
+.container{
+    background-color: #fff;
+    width: 1060px;
+    margin-left: 40px;
+    margin-right: 36px;
+
+}
+header{
+    padding: 40px 34px 0 34px;
+
+}
+.top-menu{
+    width: 100%;
+}
+.links{
+    background: linear-gradient(#5e5e5e, #464545);
+    height: 40px;
+    display: inline-block;
+}
+
+section{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.image{
+    border: 2px solid lightgrey;
 }
